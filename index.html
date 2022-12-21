@@ -1,0 +1,382 @@
+<!doctype html>
+
+
+<html lang="en" class="no-js">
+<head>
+	<title>Tatsu Genshin Build</title>
+	<link rel="icon" type="image/x-icon" href="images/titleicon.png">
+	
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">	
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+	
+</head>
+<body>
+
+	<!-- Container -->
+	<div id="container">
+		<!-- Header
+		    ================================================== -->
+		<header>
+			<div class="logo-box">
+				<a class="logo" href="index.html"><img alt="" src="images/logo.png"></a>
+			</div>
+			
+			<a class="elemadded responsive-link" href="#">Menu</a>
+
+			<div class="menu-box">
+				<ul class="menu">
+					<li><a class="active" href="index.html"><span>Home</span></a></li>
+					<li><a href="about.html"><span>About</span></a></li>
+					<li><a href="blog.html"><span>blog</span></a></li>
+					<!--<li><a href="single-post.html"><span>Single Post</span></a></li>
+					<li class="drop"><a href="#"><span>Go To Level 2</span></a>
+						<ul class="drop-down">
+							<li><a href="#"><span>Level 2</span></a></li>
+							<li class="drop"><a href="#"><span>Go To Level 3</span></a>
+								<ul class="drop-down">
+									<li><a href="#"><span>Level 3</span></a></li>
+									<li><a href="#"><span>Level 3</span></a></li>
+								</ul>
+							</li>
+							<li><a href="#"><span>Level 2</span></a></li>
+						</ul>
+					</li>
+					<li><a href="contact.html"><span>Contact</span></a></li>-->
+				</ul>				
+			</div>
+
+			<nav class="filter-box">
+				<h3>Filter<i class="fa fa-th-large"></i></h3>
+				<ul class="filter">
+				  	<a href="#" data-filter="*">Show All</a>
+				  	<li class="menu">
+						<label for="region-menu">By Region <span class="arrow">▽</span></label>
+						<input type="checkbox" id="region-menu">
+						<ul class="submenu">
+						  	<li><a href="#" data-filter=".mon">Mondstadt</a></li>
+						  	<li><a href="#" data-filter=".yue">Liyue</a></li>
+						  	<li><a href="#" data-filter=".ina">Inazuma</a></li>
+						  	<li><a href="#" data-filter=".sum">Sumeru</a></li>
+						</ul>
+				  	</li>
+				  	<li class="menu">
+						<label for="weapon-menu">By Weapon <span class="arrow">▽</span></label>
+						<input type="checkbox" id="weapon-menu">
+						<ul class="submenu">
+							<li><a href="#" data-filter=".bow">Bow</a></li>
+					  		<li><a href="#" data-filter=".cat">Catalyst</a></li>
+					  		<li><a href="#" data-filter=".clay">Claymore</a></li>
+					  		<li><a href="#" data-filter=".pole">Polearm</a></li>
+					  		<li><a href="#" data-filter=".sword">Sword</a></li>
+						</ul>
+				  	</li>
+				  	<li class="menu">
+						<label for="element-menu">By Element <span class="arrow">▽</span></label>
+						<input type="checkbox" id="element-menu">
+						<ul class="submenu">
+						  	<li><a href="#" data-filter=".anemo">Anemo</a></li>
+						  	<li><a href="#" data-filter=".cryo">Cryo</a></li>
+					  		<li><a href="#" data-filter=".dendro">Dendro</a></li>
+					  		<li><a href="#" data-filter=".electro">Electro</a></li>
+					  		<li><a href="#" data-filter=".geo">Geo</a></li>
+					  		<li><a href="#" data-filter=".hydro">Hydro</a></li>
+					  		<li><a href="#" data-filter=".pyro">Pyro</a></li>
+						</ul>
+				  	</li>
+				</ul>
+			</nav>
+
+			<script>
+				const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+				const arrows = document.querySelectorAll(".arrow");
+
+				checkboxes.forEach((checkbox, index) => {
+  					checkbox.addEventListener('change', (event) => {
+    					if (event.target.checked) {
+      						arrows[index].style.transform = 'rotate(0deg)';
+    					} else {
+      						arrows[index].style.transform = 'rotate(-90deg)';
+    					}
+  					});
+				});
+			</script>
+			
+			<div class="social-box">
+				<ul class="social-icons">
+					<li><a href="#" class="facebook" ><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" class="twitter" ><i class="fa fa-twitter"></i></a></li>
+					<!--<li><a href="#" class="google" ><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="#" class="linkedin" ><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="#" class="pinterest" ><i class="fa fa-pinterest"></i></a></li>-->
+					<li><a href="#" class="youtube" ><i class="fa fa-youtube"></i></a></li>
+					<li><a href="#" class="github" ><i class="fa fa-github"></i></a></li>
+				</ul>
+				<p class="copyright">&#169; 2022 Tatsuhiru, All Rights Reserved</p>
+			</div>
+		</header>
+		<!-- End Header -->
+
+		<!-- content 
+			================================================== -->
+		<div id="content">
+			<div class="inner-content">
+				<div class="portfolio-page">
+					<div class="portfolio-box">
+
+						<div class="project-post mon sword geo">
+							<img alt="" src="upload/albedo.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Albedo</h2>
+									<span>Off-field DPS</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post ina sword cryo">
+							<img alt="" src="upload/ayaka.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Kamisato Ayaka</h2>
+									<span>DPS</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post mon sword pyro">
+							<img alt="" src="upload/bennet.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Bennet</h2>
+									<span>Healer + Support</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post yue bow hydro">
+							<img alt="" src="upload/childe.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Childe</h2>
+									<span>DPS</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post mon clay pyro">
+							<img alt="" src="upload/diluc.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Diluc</h2>
+									<span>DPS</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post mon bow cryo">
+							<img alt="" src="upload/diona.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Diona</h2>
+									<span>Healer + Shield</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post mon bow electro">
+							<img alt="" src="upload/fischl.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Fischl</h2>
+									<span>Sub DPS</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post yue bow cryo">
+							<img alt="" src="upload/ganyu.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Ganyu</h2>
+									<span>DPS</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post mon sword anemo">
+							<img alt="" src="upload/jean.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Jean</h2>
+									<span>Healer + Battery</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post yue cat geo">
+							<img alt="" src="upload/klee.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Klee</h2>
+									<span>DPS</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post yue cat geo">
+							<img alt="" src="upload/ningguang.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Ningguang</h2>
+									<span>DPS</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post mon clay geo">
+							<img alt="" src="upload/noelle.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Noelle</h2>
+									<span>DPS + Healer + Shield</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post ina pole electro">
+							<img alt="" src="upload/baal.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Raiden Shogun</h2>
+									<span>Burst + Sub DPS</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post mon cat anemo">
+							<img alt="" src="upload/sucrose.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Sucrose</h2>
+									<span>Crowd Control + Battery</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post mon bow anemo">
+							<img alt="" src="upload/venti.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Venti</h2>
+									<span>Burst + Crowd Control</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post yue pole pyro">
+							<img alt="" src="upload/xiangling.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Xiangling</h2>
+									<span>Burst + Sub DPS</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post yue sword hydro">
+							<img alt="" src="upload/xingqiu.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Xingqiu</h2>
+									<span>Hydro Enabler + Sub DPS</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post ina cat electro">
+							<img alt="yae" src="upload/yae.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Yae Miko</h2>
+									<span>Sub DPS + Burst</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="project-post yue pole geo">
+							<img alt="" src="upload/zhongli.jpg">
+							<div class="hover-box">
+								<div class="project-title">
+									<h2>Zhongli</h2>
+									<span>Shield + Burst</span>
+									<div><a href="single-project.html"><i class="fa fa-arrow-right"></i></a></div>
+								</div>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End content -->
+
+	</div>
+	<!-- End Container -->
+
+	<div class="info-box">
+		<a class="info-toggle" href="#"><i class="fa fa-info-circle"></i></a>
+		<div class="info-content">
+			<ul>
+				<li><i class="fa fa-phone"></i>0851 5600 6109</li>
+				<li><i class="fa fa-envelope"></i><a href="#">gasharpp@gmail.com</a></li>
+				<li><i class="fa fa-home"></i>Bekasi, Indonesia</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="preloader">
+		<img alt="" src="images/preloader.gif">
+	</div>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.migrate.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+  	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+</html>
