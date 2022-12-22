@@ -260,6 +260,24 @@ $(document).ready(function($) {
 	});
 
 	/* ---------------------------------------------------------------------- */
+	/*	collapsible
+	/* ---------------------------------------------------------------------- */
+
+	
+	const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+	const arrows = document.querySelectorAll(".arrow");
+
+	checkboxes.forEach((checkbox, index) => {
+		  checkbox.addEventListener('change', (event) => {
+			if (event.target.checked) {
+				  arrows[index].style.transform = 'rotate(0deg)';
+			} else {
+				  arrows[index].style.transform = 'rotate(-90deg)';
+			}
+		  });
+	});
+
+	/* ---------------------------------------------------------------------- */
 	/*	Contact Form
 	/* ---------------------------------------------------------------------- */
 
