@@ -58,6 +58,20 @@ header {
     -o-box-shadow: 0 0 50px #000;
 }
 
+header-component {
+    display: block;
+    width: 300px;
+    float: left;
+    background: #242b2e;
+    text-align: right;
+    z-index: 4;
+    position: relative;
+    box-shadow: 0 0 50px #000;
+    -webkit-box-shadow: 0 0 50px #000;
+    -moz-box-shadow: 0 0 50px #000;
+    -o-box-shadow: 0 0 50px #000;
+}
+
 .logo-box {
     padding: 30px 30px;
     background: #fff;
@@ -225,28 +239,6 @@ ul.drop-down li {
 ul.drop-down li a:hover {
 }
 */
-
-.submenu {
-    overflow: hidden;
-    max-height: 0;
-    transition: all 0.1s ease;
-    -webkit-transition: all 0.1s ease;
-}
-  
-.filter input[type="checkbox"] {
-    display: none;
-}
-  
-.filter :checked + .submenu {
-    display: block;
-    max-height: 200px;
-}
-  
-.filter li.menu label span {
-    writing-mode: vertical-lr;
-    transform: rotate(-90deg);
-    transition: all 0.1s ease;
-}
 
 .submenu {
     overflow: hidden;
