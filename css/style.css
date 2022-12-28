@@ -1118,11 +1118,11 @@ ul li {
     margin-bottom: 14px;
 }
 
-.project-feature h1 {
+.project-pros h1 {
     margin-bottom: 5px;
 }
 
-.project-feature ul li {
+.project-pros ul li {
     color: #848484;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
@@ -1130,8 +1130,26 @@ ul li {
     line-height: 32px;
 }
 
-.project-feature ul li:before {
+.project-pros ul li:before {
     content: '\f00c';
+    font-family: 'FontAwesome';
+    margin-right: 8px;
+}
+
+.project-cons h1 {
+    margin-bottom: 5px;
+}
+
+.project-cons ul li {
+    color: #848484;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.project-cons ul li:before {
+    content: '\f00d';
     font-family: 'FontAwesome';
     margin-right: 8px;
 }
